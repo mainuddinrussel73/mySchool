@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="something.BUETHomeController">
+   <children>
+      <ImageView fitHeight="87.0" fitWidth="794.0" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="image/buet.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="626.0" layoutY="686.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" text="POST" />
+      <Text fill="#bc2e2e" layoutX="363.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to BUET" wrappingWidth="321.13671875">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font></Text>
+      <TextArea layoutX="243.0" layoutY="159.0" prefHeight="376.0" prefWidth="521.0" promptText="What Do you think...." />
+      <Button layoutX="397.0" layoutY="726.0" mnemonicParsing="false" onAction="#logout" text="Log Out" />
+      <TreeView fx:id="treeView1" layoutX="32.0" layoutY="159.0" prefHeight="376.0" prefWidth="200.0" />
+      <TextArea layoutX="240.0" layoutY="549.0" prefHeight="121.0" prefWidth="528.0" />
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>

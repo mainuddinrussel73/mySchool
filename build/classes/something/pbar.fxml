@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="129.0" minWidth="300.0" prefHeight="129.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="something.controller">
+   <children>
+      <ProgressBar fx:id="pbar" layoutX="33.0" layoutY="86.0" prefWidth="200.0" progress="0.05" />
+      <ProgressIndicator fx:id="pind" layoutX="251.0" layoutY="84.0" prefHeight="40.0" prefWidth="56.0" progress="0.05" styleClass="login.css" />
+   </children>
+</AnchorPane>

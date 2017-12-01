@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="something.MainWindowController">
+   <children>
+      <Button layoutX="570.0" layoutY="704.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" text="Comment" />
+      <TreeView fx:id="treeView" layoutX="11.0" layoutY="166.0" prefHeight="401.0" prefWidth="200.0" />
+      <TextArea layoutX="229.0" layoutY="134.0" prefHeight="443.0" prefWidth="458.0" />
+      <Label layoutX="14.0" layoutY="134.0" prefHeight="17.0" prefWidth="200.0" text="Which universityh want to check :" textFill="#122772">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="577.0" mnemonicParsing="false" onAction="#LogOut" text="Log In" />
+      <ImageView fitHeight="156.0" fitWidth="493.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/image/MySchool.png" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="228.0" layoutY="590.0" prefHeight="107.0" prefWidth="458.0" promptText="Comment Here" />
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>

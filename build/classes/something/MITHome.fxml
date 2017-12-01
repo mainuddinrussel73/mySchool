@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="something.MITHomeController">
+   <children>
+      <ImageView fitHeight="87.0" fitWidth="794.0" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="/image/MIT.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="648.0" layoutY="668.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" text="POST" />
+      <Text fill="#d31e64" layoutX="342.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to MIT" wrappingWidth="258.13671875">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font></Text>
+      <TextArea layoutX="243.0" layoutY="159.0" prefHeight="348.0" prefWidth="521.0" promptText="What Do you think...." />
+      <Button layoutX="445.0" layoutY="681.0" mnemonicParsing="false" onAction="#logout" text="Log Out" />
+      <TextArea layoutX="243.0" layoutY="514.0" prefHeight="132.0" prefWidth="521.0" />
+      <TreeView fx:id="treeView2" layoutX="14.0" layoutY="159.0" prefHeight="348.0" prefWidth="200.0" />
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>

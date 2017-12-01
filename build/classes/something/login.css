@@ -1,0 +1,35 @@
+.root{
+    
+    -fx-background-image: url("http://www.psi.org/wp-content/themes/f1ux/images/map-transparent.png");
+}
+
+#pane{
+    -fx-background-image: url("Black.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+.button{
+    -fx-font-family:"Arial";
+    -fx-font-size:10px;
+    -fx-weight:bold;
+    -fx-background-color: linear-gradient(#9EA7E5,#6Ia2bI);
+    -fx-text-fill: #383640;
+}
+.custom-node {
+    -fx-background-color: skyblue, derive(skyblue, 25%);    
+    -fx-background-insets: -20, -10;
+    -fx-background-image: url("bg2.jpg"), url("DukeWithHelmet.png");    
+    -fx-background-position: left top, center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+}
+.button:hover{
+    -fx-background-color: linear-gradient(#aa9ad2,#495556);
+    -fx-text-fill:#ffffff;
+}
+
+#treeView{
+    -fx-background-color: #005545; 
+}

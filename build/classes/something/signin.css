@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 22, 2016, 12:43:39 AM
+    Author     : Main
+*/
+.root{
+     -fx-background-image: url("/image/back.png");
+}
+#txtarea{
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.8),1,2,1,1);
+}
+
+.button{
+    -fx-font-family:"Arial";
+    -fx-font-size:10px;
+    -fx-weight:bold;
+    -fx-background-color: linear-gradient(#9EA7E5,#6Ia2bI);
+    -fx-text-fill: #383640;
+}
+.custom-node {
+    -fx-background-color: skyblue, derive(skyblue, 25%);    
+    -fx-background-insets: -20, -10;
+    -fx-background-image: url("bg2.jpg"), url("DukeWithHelmet.png");    
+    -fx-background-position: left top, center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+}
+.button:hover{
+    -fx-background-color: linear-gradient(#aa9ad2,#495556);
+    -fx-text-fill:#ffffff;
+}
